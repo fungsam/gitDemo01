@@ -18,6 +18,11 @@ public class TestController {
         return "nihao,welcome  to  use  springboot!";
     }
 
+    @RequestMapping("/test2")
+    public String test2() {
+        return "di erge lizi";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(TestController.class,args);
     }
