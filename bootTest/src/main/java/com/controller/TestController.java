@@ -23,6 +23,13 @@ public class TestController {
         return "di erge lizi";
     }
 
+    @RequestMapping("/test3")
+    public String test3() {
+        return "今天天气很冷!!";
+    }
+
+
+
     public static void main(String[] args) {
         SpringApplication.run(TestController.class,args);
     }
